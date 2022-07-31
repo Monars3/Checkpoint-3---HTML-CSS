@@ -1,0 +1,420 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* ------------------------------- */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+body {
+	font-size: 16px;
+	font-family: "Poppins" , sans-serif;
+	line-height: 1.5;
+}
+.container {
+	max-width: 1330px;
+	margin: 0 auto;
+	padding: 32px 0;
+}
+.container1{
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 84px 0;
+}
+.flex {
+	display: flex;
+	justify-content: space-between;
+	align-self: center;
+}
+a {
+	text-decoration: none;
+}
+/* ------------------------------------- */
+.main-header {
+	background-color: #012949;
+	color: #fff;
+	line-height: 1;
+}
+.main-header .container {
+	padding: 12px 0;
+}
+.small-icon {
+	vertical-align: middle;
+	padding-right: 1px;
+}
+.li {
+	padding-right: 48px;
+}
+.li a {
+	color: #fff;
+}
+.logo ion-icon {
+	margin-left: 32px;
+}
+.home {
+	font-size: 12px;
+}
+.home li {
+	margin-right: 16px;
+	color: #012949;
+}
+.home .contact {
+	margin-right: 56px;
+}
+.btn {
+	background-color: tomato;
+	border-radius: 4px;
+	color: #fff;
+	padding: 10px;
+	margin-left: 12px;
+}
+/* -------------------------------- */
+.hero {
+	background: url(./assets/media/hero/h1_hero.jpg) 100% no-repeat;
+	background-size: cover;
+}
+.hero p {
+	font-size: 14px;
+	color: red;
+}
+.hero h1 {
+	font-size: 62px;
+	font-weight: 1000;
+	color: #012949;
+	margin-bottom: 16px;
+	line-height: 1.3;
+}
+.hero-sub {
+	/* display: flex; */
+	flex-direction: column;
+	padding: 12% 0;
+}
+.hero-sub a {
+	color: #fff;
+	font-size: 12px;
+	background-color: rgb(248, 53, 18);
+	padding: 14px 24px; 
+	border-radius: 4px;
+} 
+/* ---------------------------------------- */
+.hero-next {
+	background-color: rgb(246, 243, 253);
+}
+.col-1-3 {
+	width: 32%;
+}
+.col-1-3 img {
+	width: 100%;
+}
+.col-2-3 {
+	background-color: white;
+	border: 2px solid red;
+	padding: 20px 36px;
+	box-sizing: border-box;
+}
+.view-profile {
+	padding-top: 28px;
+}
+h2 {
+	font-size: 24px;
+	font-weight: 600;
+	margin: 12px 0;
+}
+.col-1-3 p {
+	font-size: 16px;
+	line-height: 1.5;
+	color: rgb(100, 99, 99);
+}
+h3 {
+	font-size: 36px;
+	font-weight: 700;
+}
+.line {
+	width: 30%;
+	border: 2px solid red;
+	margin: 12px 0;
+}
+/* -------------------------------- */
+.team-image {
+	position: absolute;
+	width: 30%;
+	
+}
+.sub-team3 {
+	width: 46%;
+	padding: 32px;
+	background-color: rgba(255, 255, 255, 0.7);
+	position: relative;
+	top: 76px;
+	left: 32%;
+}
+.sub-team3 p {
+	margin: 24px 0;
+	margin-bottom: 32px;
+	font-size: 14px;
+}
+.sub-team3 a {
+	background-color: tomato;
+	padding: 8px 22px;
+	border-radius: 4px;
+	color: #fff;
+}
+h4 {
+	font-size: 36px;
+	line-height: 1.4;
+	font-weight: 700;
+}
+/* ----------------------------- */
+h5 {
+	font-size: 36px;
+	font-weight: bolder;
+	text-align: center;
+	padding-top: 62px;
+}
+h6 {
+	font-size: 18px;
+	font-weight: 1000;
+	padding: 12px 16px;
+}
+.logo-service {
+	font-size: 38px;
+}
+.col-services {
+	flex: 0 1 28%;
+	text-align: center;
+	padding: 30px;
+	background-color: rgb(237, 248, 252);
+}
+.more-service {
+	text-align: center;
+}
+.more-service a {
+	border: 2px solid #FF7722;
+	color: #fc670a;
+	padding: 8px 20px;
+	border-radius: 6px;
+}
+/* --------------------------------- */
+.completed-case {
+	background-color: rgb(237, 247, 252);
+	margin: 82px 0;
+}
+.col-img2 {
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 76px 0;
+	margin-left: 192px;
+}
+.col-right img {
+	width: 50%;
+}
+.col-right {
+	flex: 0 1 49%;
+}
+.col-left {
+	flex: 0 1 46%;
+	padding-top: 48px;
+}
+.col-left p {
+	padding-bottom: 32px;
+}
+.col-left h2 {
+	font-family: "Poppins";
+	font-weight: 1000;
+}
+.col-left a {
+	border: 2px solid #FF7722;
+	color: #fc670a;
+	padding: 8px 20px;
+	border-radius: 6px;
+}
+/* ---------------------------- */
+.testimony {
+	text-align: center;
+	/* width: 30%; */
+	margin: 0 auto;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+}
+.testimony-main {
+	width: 30%;
+}
+.testimony-text {
+	line-height: 1.5;
+	padding-top: 20px;
+}
+.testimony-main a {
+	/* padding-bottom: 24px; */
+	line-height: 3;
+	color: rgb(255, 208, 0);
+}
+.back-arrow , .forward-arrow {
+	margin: 0 100px;
+}
+/* ------------------------------ */
+
+.recent-news .flex img {
+	width: 100%;
+}
+.recent-news h5 {
+	padding-bottom: 52px;
+}
+.recent-news .flex .col-1-3 {
+	background-color: rgb(227, 242, 248);
+}
+.col-1-3 .heading-red {
+	color: #FF7722;
+	font-size: 14px;
+	font-size: bold;
+}
+.col-1-3 .bold-text {
+	font-family: sans-serif;
+	font-weight: bolder;
+	font-size: 20px;
+	padding: 8px 0;
+	line-height: 1.3;
+	color: black;
+}
+.col-1-3 .recent-body {
+	margin-left: 24px;
+	width: 80%;
+	padding: 14px 0;
+}
+time {
+	font-size: 12px;
+	color: gray;
+}
+/* ----------------------------- */
+.call-back {
+	background-color: #012949;
+}
+
+.col1-request{
+	flex: 0 1 33%;
+	display: flex;
+	flex-direction: column;
+	color: #fff;
+}
+.col1-request h2 {
+	font-size: 32px;
+	font-family: sans-serif;
+	line-height: 1;
+	margin-bottom: 18px;
+}
+.col2-request {
+	flex: 0 1 50%;
+	margin-top: 12px;
+}
+.form-action {
+	display: inline-block;
+	width: 49%;
+	padding: 12px;
+	border: none;
+	border: 1px solid black;
+	border-radius: 4px;
+}
+.drop-down {
+	display: inline-block;
+	width: 65%;
+	padding: 11px;
+	margin: 12px 0;
+	border-radius: 4px;
+
+}
+.btn-call {
+	display: inline-block;
+	width: 33%;
+	padding: 12px;
+	margin: 12px 0;
+	border: 1px solid black;
+	text-align: center;
+	color: #fff;
+	background-color: #fc670a;
+	border-radius: 5px;
+}
+/* ------------------------------- */
+.col-1-4 {
+	flex: 0 1 30%;
+}
+footer p {
+	color: gray;
+	padding: 32px 0;
+}
+.col-1-4 ion-icon{
+	margin-right: 8px;
+	color: #fff;
+	background-color: rgb(34, 33, 33);
+}
+strong {
+	font-size: 18px;
+	color: #012949;
+	margin-bottom: 99px;
+}
+footer li {
+	color: gray;
+	font-size: 14px;
+	margin-top: 14px;
+}
+footer {
+	background-color: rgb(220, 243, 252);
+}
+.last-footer {
+	text-align: center;
+}
+hr {
+	max-width: 1100px;
+}
+.heart {
+	color: red;
+	vertical-align: middle;
+}
+small {
+	color: red;
+}
